@@ -46,7 +46,7 @@
 // console.log(n%2) 
 
 // area of rectangle
-let a=parseInt(prompt("enter a number"))
-let b=parseInt(prompt("enter a number"))
-console.log("area of rectangle is" + a*b);
+// let a=parseInt(prompt("enter a number"))
+// let b=parseInt(prompt("enter a number"))
+// console.log("area of rectangle is" + a*b);
 
