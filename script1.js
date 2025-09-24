@@ -152,19 +152,34 @@
 //     a--
 // } while(a>=1)
 
-let a=parseInt(prompt("enter a number"))
-do {
-   a
-} while(a ==0)
+// let a
+// do {
+//      a=parseInt(prompt("enter a number"))
+// } while(a!=0)
+
+
+// while loop
+
+// question 1
+// let a=parseInt(prompt("enter a number"))
+// let i=1
+// while(i<=10) {
+//     console.log(a*i)
+//     a++  
+// }
 
 
 
+// question 2
+// wap to print sum og all numbers between 15 to 1
 
-
-
-
-
-
+// let a=15
+// let sum=0
+// while(a>=1) {
+//     sum +=a
+//     a--
+// }
+// console.log(sum)
 
 
 
