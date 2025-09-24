@@ -181,6 +181,17 @@
 // }
 // console.log(sum)
 
+// for loop
+
+// wap to print sum of all odd number between 1 to 15
+// let sum=0
+// for (let a=1;a<=15;a++) {
+//     if(a%2!=0){
+//         sum+=a
+//     }
+// }
+// console.log(sum);
+
 
 
 
