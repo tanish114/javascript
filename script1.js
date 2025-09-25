@@ -193,6 +193,30 @@
 // console.log(sum);
 
 
+// nested for loop 
+
+// question *****
+//          *****
+//          *****
+// let j=0 
+// for (i=1;i<=3;i++){
+//     for (j=1;j<=5;j++){
+//         document.write("*"); 
+//     }
+//     document.write("<br>")
+// }
+
+
+// question(right angle triangle)
+for(let r=1;r<=4;r++) {
+    for(let c=1;c<=r;c++){
+        document.write("*")
+    }
+    document.write("<br>")
+}
+
+
+
 
 
 
