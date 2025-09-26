@@ -219,25 +219,58 @@
 // reverse hw
 
 // hollow square 
-for(let r=1;r<=5;r++){
-    for(let c=1;c<=5;c++){
-        if(r==1 || r==5 || c==1 || c==5){
-            document.write("*")
-        }
-        else{
-            document.write("&nbsp&nbsp")
-        }
-    }
-    document.write("<br>")
-}
+// for(let r=1;r<=5;r++){
+//     for(let c=1;c<=5;c++){
+//         if(r==1 || r==5 || c==1 || c==5){
+//             document.write("*")
+//         }
+//         else{
+//             document.write("&nbsp&nbsp")
+//         }
+//     }
+//     document.write("<br>")
+// }
 
 
 
 
+// *      *
+//   *   *
+//     * 
+//    *  *
+//  *      *
 
 
+// for(let r=1;r<=5;r++){
+//     for(let c=1;c<=5;c++){
+//         if(r==c || r+c==6){
+//             document.write("*")
+//         }
+//         else{
+//             document.write("&nbsp&nbsp")
+//         }
+//     }
+//     document.write("<br>")
+// }
 
 
+// functions  
+// function sum() {
+//     let n1=10
+//     let n2=30
+//     console.log(n1+n2)
+// }
+// sum()
+
+
+// wap to find area of rectangle
+// function area(){
+//     let a=parseInt(prompt("enter length"))
+//     let b=parseInt(prompt("enter breadth"))
+
+//     console.log(a*b)
+// }
+// area()
 
 
 
