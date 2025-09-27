@@ -272,15 +272,30 @@
 // }
 // area()
 
+// user defined function
+
+// wap to take input from int user and check even odd using type 2 fun
+// let a=parseInt(prompt("enter a number")) 
+//  function num(a){
+//     if(a%2==0){
+//         console.log("odd")
+//     }
+//     else{
+//         console.log("even")
+//      }
+//  }
+//  num(a)
 
 
+// wap tp print reverse table of any number using type 2 no arg no return
+// a=parseInt(prompt("enter a number"))
 
-
-
-
-
-
-
+// function table(a){
+// for(let i=10;i>=1;i--){
+//     console.log(a*i)
+// }
+// }
+// table(a)
 
 
 
