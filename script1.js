@@ -298,6 +298,9 @@
 // table(a)
 
 
+// arrow function
+// annoynyamous function 
+
 
 
 
