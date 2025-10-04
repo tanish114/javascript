@@ -35,3 +35,15 @@
 // let b=parseInt(prompt("enter length"))
 // let c=parseInt(prompt("enter breadth"))
 // console.log(p(b,c));
+
+// area of triangle
+// let area = (b,h)=>{return b*h/2}
+// let b=parseInt(prompt("enter base"))
+// let h=parseFloat(prompt("enter height"))
+// console.log(area(b,h));.
+
+
+// cube of any number
+// let a= (h)=>{return h*h*h}
+// let h=parseInt(prompt("jfhf"))
+// console.log(a(h));
