@@ -9,7 +9,7 @@
 // on js
 // // getelementbyid is a function
 // // textcontent changes or target text
-// // inner html text can be change but we can also apply tag with it
+// // innerHtml text can be change but we can also apply tag with it
 // // to target body then we use document.body
 // // setattribute a function that always takes two parameter- 1-attribute name =,2-attribute value
 // // we can perform action on particular element by setattribute on a particular variable
