@@ -36,3 +36,6 @@
 
 
 // document.body.setAttribute('bgcolor','yellow')
+
+let a=document.getElementById("one")
+a.setAttribute('src','image.avif')
