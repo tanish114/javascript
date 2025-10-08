@@ -1,5 +1,6 @@
 //  if we want to apply single property then we can directy apply style.csspropertyname
 // // document.getElementById('head').style.backgroundColor='yellow'
+// or
 // document.getElementById('head').style.backgroundColor='#008000'
 
 // if we want to set multiple atttribute we can simply get it stored in varibale and aplly multiple 
@@ -32,8 +33,16 @@
 
 // document.getElementById('parent').append(tag)
 
-let para=document.createElement('p')
-para.textContent="a new paragraph "
-document.getElementById('parent').append(para)
+// let para=document.createElement('p')
+// para.textContent="a new paragraph "
+// document.getElementById('parent').append(para)
 
 
+// hw
+// create 10 list item from html
+// all list item which is even must have bg color=green,color=white,padding=12px
+
+let a=document.getElementById('list')
+if(a%2==0){
+    a.style.cssText="background-color:red"
+}
