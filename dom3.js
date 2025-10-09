@@ -43,6 +43,22 @@
 //     document.body.style.backgroundColor=cl
 // }
 
-function fun1(){
-    document.getElementById('head').textContent="chnaged by js"
+// function fun1(){
+//     document.getElementById('head').textContent="chnaged by js"
+// }
+
+
+let count=0
+document.getElementById='main'
+
+function inc(){
+    count++;
+    main.innerHTML=count;
+}
+
+function dec(){
+    if(count>0){
+        count--;
+        main.innerHTML=count;
+    }
 }
