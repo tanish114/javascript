@@ -41,8 +41,3 @@
 // hw
 // create 10 list item from html
 // all list item which is even must have bg color=green,color=white,padding=12px
-
-let a=document.getElementById('list')
-if(a%2==0){
-    a.style.cssText="background-color:red"
-}

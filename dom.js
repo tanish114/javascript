@@ -34,6 +34,7 @@
 //  b.setAttribute('align','center')
 // document.getElementById('demo').removeAttribute('style')
 
+// removeattribute we can remove applied thing
 
 // document.body.setAttribute('bgcolor','yellow')
 

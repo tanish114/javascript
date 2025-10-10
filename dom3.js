@@ -49,7 +49,7 @@
 
 
 let count=0
-document.getElementById='main'
+document.getElementById('main')
 
 function inc(){
     count++;
@@ -57,7 +57,7 @@ function inc(){
 }
 
 function dec(){
-    if(count>0){
+    if(count>0){3
         count--;
         main.innerHTML=count;
     }
