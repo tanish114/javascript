@@ -51,8 +51,9 @@
 // h[4].style.color="pink"
 // h[5].style.color="purple"
 
-let a=document.getElementsByClassName('head')
-a[0].style.backgroundColor="red"
-a[1].style.backgroundColor="green"
-a[2].style.backgroundColor="blue"
-a[3].style.backgroundColor="yellow"
+// let a=document.getElementsByClassName('head')
+// a[0].style.backgroundColor="red"
+// a[1].style.backgroundColor="green"
+// a[2].style.backgroundColor="blue"
+// a[3].style.backgroundColor="yellow"
+
