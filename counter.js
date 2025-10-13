@@ -57,3 +57,34 @@
 // a[2].style.backgroundColor="blue"
 // a[3].style.backgroundColor="yellow"
 
+
+
+// querySelector works for single element by class and we don't have to use any indexing
+// querySelectorcan work for all wheather class or id or even for a tag
+// always target only single element
+
+// document.querySelector('#head').style.background="red"
+
+
+// if we want to select multiple elements then we do it by querySelectorAll
+// this will also return a node list in the form of array and will use indexing to target element
+// querySelectorAll,getElementsByClassName,getElementsByTagName these three are same and return node list
+
+// function fun1(){
+//     document.querySelector('#four').setAttribute('src','mobile.avif')
+//     document.querySelector('#text').textContent="mobile"
+
+    
+    
+// }
+
+// function fun2(){
+//     document.querySelector('#four').setAttribute('src','laptop.avif')
+//    document.querySelector('#text').textContent="laptop"
+// }
+
+// function fun3(){
+//     document.querySelector('#four').setAttribute('src','tablet.avif')
+//     document.querySelector('#text').textContent="tablet"
+// }
+
