@@ -19,16 +19,17 @@
 
 // }
 
-function fun1(){
-    let z=document.querySelector('body')
-    let an = z.classList.toggle('b')
-    console.log(an)
-    // document.getElementById('h').textContent="light"
-    if(an==true){
-      document.querySelector('#h').textContent="light"
-    }
-    else{
-        document.querySelector('#h').textContent="dark"
-    }
+// function fun1(){
+//     let z=document.querySelector('body')
+//     let an = z.classList.toggle('b')
+//     console.log(an)
+//     // document.getElementById('h').textContent="light"
+//     if(an==true){
+//       document.querySelector('#h').textContent="light"
+//     }
+//     else{
+//         document.querySelector('#h').textContent="dark"
+//     }
 
-}
+// }
+
