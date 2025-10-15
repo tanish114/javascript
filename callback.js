@@ -13,7 +13,7 @@
 //     count++;
 //     if(count>5){
 //         clearInterval(a)
-//     }
+//     }*/
 // },1000)
 
 // let a=0
@@ -33,5 +33,30 @@
 //     a=0
 //     h1.innerHTML=a
 //     clearInterval(st)
+
+
+// settimeout a function that performs action only one time at a provided 
+
+// setTimeout(()=>{
+//     alert("working.....")
+// },3000)
+
+// setTimeout(()=>{
+//     document.getElementById('img').setAttribute('src','image.avif')
+
+// },5000)
+
+// setTimeout(()=>{
+//     document.querySelector('form').style.display='block'
+// },5000)
+
+
+
+// function fun(){
+// setTimeout(()=>{
+//     document.querySelector('#main').style.display='block'
+// },3000)
 // }
+
+
 
