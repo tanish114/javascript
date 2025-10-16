@@ -33,8 +33,7 @@
 //     clearInterval(a)
 // }
 
-
-},3000)
+// },3000)
 
 // let count=1
 // let a=setInterval(()=>{
@@ -86,6 +85,5 @@
 //     document.querySelector('#main').style.display='block'
 // },3000)
 // }
-
 
 
