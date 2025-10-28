@@ -25,23 +25,42 @@
 // })
 
 // counter program with addeventlistner
-let a=0
-document.querySelector('#one').addEventListener('click',function(){
-  document.querySelector('#count').innerHTML=++a
+// let a=0
+// document.querySelector('#one').addEventListener('click',function(){
+//   document.querySelector('#count').innerHTML=++a
   
-})
+// })
 
-document.querySelector('#two').addEventListener('click',function(){
-  if(a>0){
-    document.querySelector('#count').innerHTML=--a
-  }
-  else{
-    alert("value less than zero")
-  }
+// document.querySelector('#two').addEventListener('click',function(){
+//   if(a>0){
+//     document.querySelector('#count').innerHTML=--a
+//   }
+//   else{
+//     alert("value less than zero")
+//   }
   
-})
+// })
 
-document.querySelector('#three').addEventListener('click',function(){
-  document.querySelector('#count').textContent='0'
+// document.querySelector('#three').addEventListener('click',function(){
+//   document.querySelector('#count').textContent='0'
   
+// })
+
+// [practise question
+
+// document.querySelector('#one').addEventListener('click',function(){
+//   alert("hello aman")
+// })
+
+// document.querySelector('#change').addEventListener('click',function(){
+//  document.querySelector('#para').textContent="changed the para"
+// })
+
+
+// document.querySelector('#box').addEventListener('dblclick',function(){
+//   document.querySelector('#box').style.backgroundColor="green"
+// })
+
+document.querySelector('#text').addEventListener('mouseenter',function(){
+  document.querySelector('#text').style.Color="green"
 })
