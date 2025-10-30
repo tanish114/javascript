@@ -28,18 +28,20 @@
 
 // wap to take 5 input value from user and print below the form
 
-function fun(){
-    let a=(document.querySelector('#l1').value)
-    let b=(document.querySelector('#l2').value)
-    let c=(document.querySelector('#l3').value)
-    let d=(document.querySelector('#l4').value)
-    let e=(document.querySelector('#l5').value)
+// function fun(){
+//     let a=(document.querySelector('#l1').value)
+//     let b=(document.querySelector('#l2').value)
+//     let c=(document.querySelector('#l3').value)
+//     let d=(document.querySelector('#l4').value)
+//     let e=(document.querySelector('#l5').value)
 
-    document.querySelector('#result1').innerHTML=a
-    document.querySelector('#result2').innerHTML=b
-    document.querySelector('#result3').innerHTML=c
-    document.querySelector('#result4').innerHTML=d
-    document.querySelector('#result5').innerHTML=e
+//     document.querySelector('#result1').innerHTML=a
+//     document.querySelector('#result2').innerHTML=b
+//     document.querySelector('#result3').innerHTML=c
+//     document.querySelector('#result4').innerHTML=d
+//     document.querySelector('#result5').innerHTML=e
 
-    return false
-}
+//     return false
+// }
+
+document.querySelector('#a').value
