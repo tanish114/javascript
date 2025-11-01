@@ -101,11 +101,11 @@ else if(email==""){
     return false
  }
 
-//  else if(!(pass.match(/[~!#$@%^&*()]/))){
-//     alert("pleaase enter seccial character")
-//     document.querySelector('#pass').focus()
-//     return false
-//  }
+  else if(!(pass.match(/[~!#$@%^&*() 0123456789]/))){
+     alert("pleaase enter seccial character")
+     document.querySelector('#pass').focus()
+    return false
+  }
 
  else if(pass.length <8 || pass.length>15){
     alert("enter correct length password")
