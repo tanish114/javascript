@@ -101,8 +101,14 @@ else if(email==""){
     return false
  }
 
- else if(!(pass.match(/[~!#$@%^&*()]/))){
-    alert("pleaase enter seccial character")
+//  else if(!(pass.match(/[~!#$@%^&*()]/))){
+//     alert("pleaase enter seccial character")
+//     document.querySelector('#pass').focus()
+//     return false
+//  }
+
+ else if(pass.length <8 || pass.length>15){
+    alert("enter correct length password")
     document.querySelector('#pass').focus()
     return false
  }
@@ -129,4 +135,4 @@ else if(email==""){
 
 
 // length of password dhould not be less than 8 and greater than 15 
-// and password must contain first letter as capital
+// and password must contain a digit 
