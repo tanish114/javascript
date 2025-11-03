@@ -29,15 +29,17 @@
     
 // }
 
-let ele=[]
-let sum =0 
-for(let i=0;i<11;i++){
-    ele[i]=parseInt(prompt("enter element"))
+// let ele=[]
+// let sum =0 
+// for(let i=0;i<11;i++){
+//     ele[i]=parseInt(prompt("enter element"))
     
-    if(ele[i] %2 !=0){
-     console.log(ele[i]);
+//     if(ele[i] %2 !=0){
+//      console.log(ele[i]);
      
-    }
-}
+//     }
+// }
+
+
 
 
