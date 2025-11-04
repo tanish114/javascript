@@ -26,25 +26,48 @@
 
 // different functions of array
 
-let ar=["py","css","js"]
+// let ar=["py","css","js"]
+// console.log(ar);
+
+// // push function we can insert element into an existing array in last
+// ar.push("react")
+// console.log(ar);
+
+
+// // pop function remove only 1 element from last
+// ar.pop()
+// console.log(ar);
+
+// // unshift function add element at first position
+// ar.unshift("c")
+// console.log(ar);
+
+// // shift function removes element from first
+// ar.shift()
+// console.log(ar);
+
+
+let ar=["html","css","js","python","c++"]
+// slicee function takes out element from it
+// slice always take two element 1-start index,2-end index
+// slice always return value
+// last value is always exlcusive we always provide (n-1)
+let value= ar.slice(1,3)
+console.log(value)
+
+// splice removes element 
+// takes two element 1-start index value, 2-no of element
+
+// for deletion
+ar.splice(1,2)
 console.log(ar);
 
-// push function we can insert element into an existing array in last
-ar.push("react")
-console.log(ar);
+// for add we can third argument which is "value to be added"
+ar.splice(2,0,"django")
+console.log((ar));
 
 
-// pop function remove only 1 element from last
-ar.pop()
-console.log(ar);
 
-// unshift function add element at first position
-ar.unshift("c")
-console.log(ar);
-
-// shift function removes element from first
-ar.shift()
-console.log(ar);
 
 
 
