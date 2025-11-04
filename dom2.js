@@ -20,10 +20,16 @@
 // document.getElementById('two').style.fontSize='70px'
 // document.getElementById('three').style.fontSize='100px'
 
+
+
 // now instead of applying style one by one we can aplly directly by using "cssText"
 
 // let b=document.getElementById('chair')
 // b.style.cssText="background-color:red; color:white; padding:20px"
+
+
+
+
 
 // if we want to create a element and then we have to insert it inside the html tag then we do this by
 // following two things- 1(createlement) 2(append)  (read the example well)
