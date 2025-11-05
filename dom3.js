@@ -57,7 +57,7 @@ function inc(){
 }
 
 function dec(){
-    if(count>0){3
+    if(count>0){
         count--;
         main.innerHTML=count;
     }
