@@ -1,4 +1,4 @@
-// ?.focus is used to add focus to a particular field. it is a function
+// .focus is used to add focus to a particular field. it is a function
 // form validation are use to generate error
 // isNuN is a function whhich state that is not a number
 // .includes is function which gives always boolean output accept only one argument
