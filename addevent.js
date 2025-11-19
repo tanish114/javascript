@@ -61,6 +61,3 @@
 //   document.querySelector('#box').style.backgroundColor="green"
 // })
 
-document.querySelector('#text').addEventListener('mouseenter',function(){
-  document.querySelector('#text').style.Color="green"
-})
